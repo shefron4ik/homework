@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>page 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+<body>
+<p class="lead">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores earum enim exercitationem fuga impedit incidunt ipsum neque nihil quas, qui, ratione sint sunt veniam. Amet laudantium maiores nisi repellendus sapiente.
+</p>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">панель навигации</a>
+  </div>
+</nav>
+<a href="page 1.html" >сылка на page 1</a>
+<form action="">
+    <label for="story"></label>
+    <textarea id="story" name="story" rows="5" cols="33"></textarea>
+
+    <label for="field1">простое текствое поле</label>
+  <input class="form-control form-control-lg" id="field1" type="text">
+
+
+    <label for="form2">check box</label>
+  <input id="form2" type="checkbox">
+
+
+    <label for="form3">password</label>
+  <input class="form-control form-control-sm" id="form3" type="password">
+
+
+    <input  type="button" class="btn btn-warning" value="enter">
+</form>
+</body>
+</html>
